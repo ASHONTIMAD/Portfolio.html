@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+    />
+    <title>Ashonti Madison | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>ASHONTI MADISON</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+  </nav>
+
+    <!-- About ME Section -->
+    <section class="hero" id="about">
+        <img
+          src="file:///Users/ashontimadison/Downloads/Open%20Peeps%20-%20Sitting-2.png"
+          alt="ashonti madison"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Hello my name is Ashonti, I am a student at the University of Texas Austin curently enrolled in a coding bootcamp! I love to learn new things and I am exicted to see where this cousre takes me. 
+          </p>
+        </div>
+  </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1051/1051328.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732007.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/721/premium/721671.png?token=exp=1657056916~hmac=cb5c56eab06f3fc37fd5108054757783"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Resume section p.s i dont have a resume which is why its blank-->
+    <section class="projects" id="projects">
+      <a href="" target="_blank">
+      <h2 class="projects-title">Resume</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+          src="https://cdn-icons-png.flaticon.com/512/888/888034.png"
+            alt="paper"
+            loading="lazy"
+            class="project-pic
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Social accounts -->
+    <div class="socials">
+        <a href="https://twitter.com/ashonti_madison/" target="_blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/25/25347.png"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://instagram.com/__ashontii/" target="_blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/61/61109.png"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/ASHONTIMAD/ASHONTIMAD.git" target="_blank"
+          ><img src="https://cdn-icons.flaticon.com/png/512/3291/premium/3291695.png?token=exp=1657059070~hmac=388dad08fd6810c53a8f8a2b4d166f5d" alt="Github" class="socicon"
+        /></a>
+      </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="https://media3.giphy.com/media/UWmeyp8gX9BwIAeVd2/giphy.gif?cid=ecf05e478ysnoj3lzy81bgaten9hc6o8is1bxhyb0ba1uck5&rid=giphy.gif&ct=s"
+      class="socicon up-arrow"
+      alt="scroll-up";
+  /></i>
+
+
+    <!-- Footer section -->
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+          Built with <ion-icon name="heart-circle-outline"></ion-icon> by
+          <a href="https://twitter.com/ashonti_madison/" target="_blank"
+            >Ashonti Madison</a
+          >
+        </p>
+  </footer>
+
+
+
+    <!-- Ion icons scripts -->
+  </body>
+</html>
